@@ -49,27 +49,27 @@ syn match idrisIdentifier "[a-zA-Z][a-zA-z0-9_']*" contained
 if !exists("g:idris2_regexp_syntax_enabled") || g:idris2_regexp_syntax_enabled
   highlight def link idrisDeprecated Error
   highlight def link idrisIdentifier Identifier
-  highlight def link idrisImport Structure
-  highlight def link idrisModule Structure
-  highlight def link idrisStructure Structure
-  highlight def link idrisStatement Statement
-  highlight def link idrisForall Structure
+  highlight def link idrisImport Include
+  highlight def link idrisModule Keyword
+  highlight def link idrisStructure Keyword
+  highlight def link idrisStatement Keyword
+  highlight def link idrisForall Keyword
   highlight def link idrisDataOpt Statement
   highlight def link idrisDSL Statement
   highlight def link idrisBlock Statement
   highlight def link idrisAnnotation Statement
-  highlight def link idrisWhere Structure
-  highlight def link idrisLet Structure
+  highlight def link idrisWhere Keyword
+  highlight def link idrisLet Keyword
   highlight def link idrisTotality Statement
   highlight def link idrisVisibility Statement
   highlight def link idrisConditional Conditional
-  highlight def link idrisPragma Statement
+  highlight def link idrisPragma SpecialComment
   highlight def link idrisNumber Number
   highlight def link idrisFloat Float
   highlight def link idrisDelimiter Delimiter
-  highlight def link idrisInfix PreProc
+  highlight def link idrisInfix Keyword
   highlight def link idrisOperators Operator
-  highlight def link idrisType Include
+  highlight def link idrisType Type
   highlight def link idrisDocComment Comment
   highlight def link idrisLineComment Comment
   highlight def link idrisBlockComment Comment
