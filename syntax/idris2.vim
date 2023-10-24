@@ -76,7 +76,7 @@ if !exists("g:idris2_regexp_syntax_enabled") || g:idris2_regexp_syntax_enabled
   highlight def link idrisTodo Todo
   highlight def link idrisMetaVar Macro
   highlight def link idrisString String
-  highlight def link idrisChar String
+  highlight def link idrisChar Character
   highlight def link idrisBacktick Operator
 endif
 
